@@ -34,7 +34,7 @@ const validateSignupData = (username, email, password, confirmPassword) => {
   return errors;
 };
 
-// Signup route - POST
+// Signup route - POST 
 const signupUser = async (req, res) => {
   try {
     const { username, email, password, confirmPassword } = req.body;
