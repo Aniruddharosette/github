@@ -10,7 +10,7 @@ const validateSignupData = (username, email, password, confirmPassword) => {
   const errors = [];
 
   if (!username || username.trim().length === 0) {
-    errors.push('Username is required1');
+    errors.push('Username is required2');
   } else if (username.length < 3) {
     errors.push('Username must be at least 3 characters');
   } else if (username.length > 20) {
